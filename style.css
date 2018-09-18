@@ -1,0 +1,131 @@
+.main-container {
+    position: relative;
+    position: relative;
+    width: 727px;
+    margin: 0 auto;
+}
+
+body {
+    background-color: #a7664d;
+}
+
+.text-div {
+    text-align: center;
+    margin: 6px auto 0;
+    color: #3e1c11;
+    padding: 26px 0;
+}
+
+h2 {
+    font-family: 'Catamaran', sans-serif;
+    font-weight: 100;
+    font-size: 22px;
+    text-align: center;
+    letter-spacing: 2px;
+    margin: 1px 0;
+}
+
+h1 {
+    text-shadow: 6px 3px 0px #d49780;
+    font-family: 'Barlow Condensed', sans-serif;
+    font-size: 109px;
+    text-transform: uppercase;
+    margin: 1px 0;
+    line-height: 80px;
+    font-weight: 600;
+}
+
+.chocolate-div {
+    width: 716px;
+    height: 100%;
+    margin: 0 auto;
+    overflow: hidden;
+    padding: 33px 0;
+    box-sizing: border-box;
+}
+
+.piece {
+    width: 25%;
+    float: left;
+    height: 162px;
+    background-color: #5b2a17;
+    border: 11px solid #3e1c11;
+    border-right: 11px solid #753f29;
+    border-bottom: 11px solid #753f29;
+    box-sizing: border-box;
+    position: relative;
+}
+
+.piece:nth-child(1) {
+    background: none;
+    border: none;
+}
+
+/* front pane, placed above back */
+
+
+.front, .front1, .front2, .front3, .front4, .front5, .front6, .front7, .front8, .front9, .front10, .front11, .front12, .front13, .front14, .front15, .front16, .front17, .front18, .front19, .front20, .front21, .front22, .front23, .front24 {
+	opacity: 0;
+	cursor: pointer;
+}
+
+
+.back, .back1, .back2, .back3, .back4, .back5, .back6, .back7, .back8, .back9, .back10, .back11, .back12, .back13, .back14, .back15, .back16, .back17, .back18, .back19, .back20, .back21, .back22, .back23, .back24  {
+    position: absolute;
+    top: -11px;
+    right: -11px;
+    bottom: -11px;
+    left: -11px;
+    padding: 15px 0 0 0;
+    opacity: 1;
+    background-color: #3e1c11;
+}
+
+.cacaobean {
+	width: auto;
+    height: 111px;
+    margin: 0 auto;
+    display: block;
+}
+
+img {
+	display: none;
+}
+
+@media only screen and (max-width: 450px) {
+
+
+        .text-div {
+                margin: 22px auto;
+            }    
+
+        h1 {
+                font-size: 81px;
+                line-height: 66px;
+            }
+
+        h2 {
+                line-height: 22px;
+            }
+
+        .chocolate-div {
+                width: 370px;
+                padding: 11px 0;
+            }
+
+        .piece {
+            width: 50%;
+            float: left;
+        }
+
+        .cacaobean {
+            width: auto;
+            height: 111px;
+            margin: 0 auto;
+            display: block;
+        }
+
+    .main-container {
+        width: 100%;
+    }
+}
